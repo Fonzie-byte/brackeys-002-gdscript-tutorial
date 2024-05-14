@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=3 uid="uid://ds67dohhvutfl"]
+
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_76cq6"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_76cq6")
+
+[node name="Label" type="Label" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -51.5
+offset_top = -11.5
+offset_right = 51.5
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 48
+text = "This is a label"
