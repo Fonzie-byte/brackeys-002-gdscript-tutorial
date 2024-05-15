@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://ds67dohhvutfl"]
+[gd_scene load_steps=6 format=3 uid="uid://ds67dohhvutfl"]
 
 [ext_resource type="Script" path="res://scripts/main.gd" id="1_76cq6"]
 [ext_resource type="Script" path="res://scripts/advanced_variables.gd" id="2_wbedw"]
 [ext_resource type="Script" path="res://scripts/functions.gd" id="3_q5ei7"]
 [ext_resource type="Script" path="res://scripts/random.gd" id="4_hvaip"]
+[ext_resource type="Script" path="res://scripts/arrays.gd" id="5_ssc1a"]
 
 [node name="Main" type="Node"]
 script = ExtResource("1_76cq6")
@@ -34,3 +35,6 @@ script = ExtResource("3_q5ei7")
 
 [node name="Random" type="Node" parent="."]
 script = ExtResource("4_hvaip")
+
+[node name="Arrays" type="Node" parent="."]
+script = ExtResource("5_ssc1a")
